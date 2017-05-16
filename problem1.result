@@ -1,0 +1,118 @@
+ m     3
+ n     6
+ c'    1.  2.  3.  0.  0.  0.
+
+ A.x = b
+  1. -1.  1.  1.  0.  0. =  4.
+  1.  1.  0.  0. -1.  0. =  0.
+  0.  0.  1.  0.  0.  1. =  6.
+
+ Phase 1
+ currentsoln:  Bi, xb
+    1.  0.  0.     x 7 =  4.
+    0.  1.  0.     x 8 =  0.
+    0.  0.  1.     x 9 =  6.
+
+   --------------------------- Objective value z =  10.
+
+ computedual:  1.  1.  1.
+ reducedcost: x 1 enters with rc -2.
+ mivitwwbias:  1.  1.  0.
+ lvratiotest: xb 2 leaves basis
+ basisupdate:
+   bpos 7 8 9   apos 0 0 0 0 0 0
+     -> 7 1 9     -> 2 0 0 0 0 0
+ currentsoln:  Bi, xb
+    1. -1.  0.     x 7 =  4.
+    0.  1.  0.     x 1 =  0.
+    0.  0.  1.     x 9 =  6.
+
+   --------------------------- Objective value z =  10.
+
+ computedual:  1. -1.  1.
+ reducedcost: x 3 enters with rc -2.
+ mivitwwbias:  1.  0.  1.
+ lvratiotest: xb 1 leaves basis
+ basisupdate:
+   bpos 7 1 9   apos 2 0 0 0 0 0
+     -> 3 1 9     -> 2 0 1 0 0 0
+ currentsoln:  Bi, xb
+    1. -1.  0.     x 3 =  4.
+    0.  1.  0.     x 1 =  0.
+   -1.  1.  1.     x 9 =  2.
+
+   --------------------------- Objective value z =  2.
+
+ computedual: -1.  1.  1.
+ reducedcost: x 2 enters with rc -2.
+ mivitwwbias: -2.  1.  2.
+ lvratiotest: xb 2 leaves basis
+ basisupdate:
+   bpos 3 1 9   apos 2 0 1 0 0 0
+     -> 3 2 9     -> 0 2 1 0 0 0
+ currentsoln:  Bi, xb
+    1.  1.  0.     x 3 =  4.
+    0.  1.  0.     x 2 =  0.
+   -1. -1.  1.     x 9 =  2.
+
+   --------------------------- Objective value z =  2.
+
+ computedual: -1. -1.  1.
+ reducedcost: x 5 enters with rc -1.
+ mivitwwbias: -1. -1.  1.
+ lvratiotest: xb 3 leaves basis
+ basisupdate:
+   bpos 3 2 9   apos 0 2 1 0 0 0
+     -> 3 2 5     -> 0 2 1 0 3 0
+ currentsoln:  Bi, xb
+    0.  0.  1.     x 3 =  6.
+   -1.  0.  1.     x 2 =  2.
+   -1. -1.  1.     x 5 =  2.
+
+   --------------------------- Objective value z =  0.
+
+ computedual:  0.  0.  0.
+ reducedcost: x 0 enters with rc  0.
+   Optimality reached.
+   RSM iterations executed:  5
+
+ Phase 2
+ currentsoln:  Bi, xb
+    0.  0.  1.     x 3 =  6.
+   -1.  0.  1.     x 2 =  2.
+   -1. -1.  1.     x 5 =  2.
+
+   --------------------------- Objective value z =  22.
+
+ computedual: -2.  0.  5.
+ reducedcost: x 6 enters with rc -5.
+ mivitwwbias:  1.  1.  1.
+ lvratiotest: xb 2 leaves basis
+ basisupdate:
+   bpos 3 2 5   apos 0 2 1 0 3 0
+     -> 3 6 5     -> 0 0 1 0 3 2
+ currentsoln:  Bi, xb
+    1.  0.  0.     x 3 =  4.
+   -1.  0.  1.     x 6 =  2.
+    0. -1.  0.     x 5 =  0.
+
+   --------------------------- Objective value z =  12.
+
+ computedual:  3.  0.  0.
+ reducedcost: x 4 enters with rc -3.
+ mivitwwbias:  1. -1.  0.
+ lvratiotest: xb 1 leaves basis
+ basisupdate:
+   bpos 3 6 5   apos 0 0 1 0 3 2
+     -> 4 6 5     -> 0 0 0 1 3 2
+ currentsoln:  Bi, xb
+    1.  0.  0.     x 4 =  4.
+    0.  0.  1.     x 6 =  6.
+    0. -1.  0.     x 5 =  0.
+
+   --------------------------- Objective value z =  0.
+
+ computedual:  0.  0.  0.
+ reducedcost: x 0 enters with rc  0.
+   Optimality reached.
+   RSM iterations executed:  3
