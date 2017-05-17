@@ -1,6 +1,6 @@
       program minimax
 ! created by   R. Papesch 
-! created on   09 Sep 2009
+! created on   09 Sep 1998 or earlier
 ! license      GNU GPLV2.0, please see 
 !              https://github.com/papesch/fortran/blob/master/LICENSE
 ! description  Sets up an LP file to be read by sim.g and minimised..
