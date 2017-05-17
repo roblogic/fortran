@@ -1,4 +1,10 @@
       program main
+! created by   R. Papesch 
+! created on   09 Sep 2009
+! license      GNU GPLV2.0, please see 
+!              https://github.com/papesch/fortran/blob/master/LICENSE
+! description  Solves linear equations (lp.dat) using Revised Simplex
+!              Method with two phases.
 
       implicit none                ! Set up variables..
       integer o,p
